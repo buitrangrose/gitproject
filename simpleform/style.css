@@ -1,0 +1,34 @@
+table {
+    height: 50%;
+    width: 100%;
+    margin : auto;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 20px solid rgb(0, 255, 255);
+
+}
+#name, #email{
+    border: inset;
+}
+#email{
+    width: 75%;
+    
+}
+#name{
+    width: 95%;
+}
+th{
+    background-color: orangered;
+}
+.name, .hobbies, .email{
+    color: blue;
+    text-align: right;
+}
+#hobby{
+    color: orange;
+   
+}
+#send, #reset{
+
+    border: outset;
+}
