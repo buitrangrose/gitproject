@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+img{
+    width: 22%;
+    height: 200px;
+}
+.card-1, .card-2, .card-3, .card-4{
+ float: left;
+ border: 1px solid grey;
+ margin: 1%;
+ height: 250px;
+ cursor: pointer;
+}
+.card-4:hover{
+    border: 1px solid black;
+}
+.car-1:hover{
+    border: 1px solid black;
+}
+.card-2:hover{
+    border: 1px solid black;
+}
+.card-3:hover{
+    border: 1px solid black;
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    padding-top: 10px;
+}
+.footer{
+    clear: both;
+    margin: 10px;
+}
+h1, h2{
+    margin: 10px;
+}
+@media only screen and (min-width:700px){
+    img{width:22%}
+}
+@media only screen and(max-width:700px){
+    img{width:41%}
+}
+@media only screen and(max-width:500px){
+    img{width:96%}
+}
